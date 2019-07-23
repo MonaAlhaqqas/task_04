@@ -7,4 +7,4 @@ class Restaurant (models.Model): #calss name should always be singuler and start
     closing_time = models.TimeField()
 
     def __str__(self):
-     return self.name , self.opening_time
+     return self.name 
